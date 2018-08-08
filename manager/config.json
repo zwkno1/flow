@@ -1,0 +1,23 @@
+{
+	"slots":[
+		{
+			"id" : "filewriter",
+			"sinks" : [],
+			"args" : 
+			{
+				"fileName" : "xxx.txt"
+			}
+		},
+		{
+			"id" : "tick",
+			"args" : 
+			{
+				"interval" : "1"
+			},
+			"sinks" : [
+				"filewriter"
+			]
+		}
+	]
+}
+
